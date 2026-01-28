@@ -1,0 +1,4 @@
+# for mac only
+.DS_Store
+# general ignore
+node_modules/
