@@ -1,0 +1,11 @@
+<html>
+    {% include "header.njk" %}
+    <body>
+        <form method="POST" action="/sign">
+            <input type="text" placeholder="sign your name" name="guest">
+            <input type="text" plceholder="write a message" name="guestMessage">
+            <input type="submit" value="sign my guestbook">
+        </form>
+        {{ serverData }}
+    </body>   
+</html>
