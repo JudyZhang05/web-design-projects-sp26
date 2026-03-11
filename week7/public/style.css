@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(117, 172, 243, 0.295);
+}
+
+.about{
+    font-size: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+nav > a:visited, nav > a{
+    color: black;
+}
