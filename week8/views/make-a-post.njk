@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>make a post</title>
+        {% include "headers.njk" %}
+    </head>
+    <body>
+        {% include "nav.njk" %}
+        <form method="POST" action="/post" enctype="multipart/form-data">
+            <input type="file" name="uploadedImage">
+            <input type="text" placeholder="caption" name="caption">
+            <input type="submit" value="post">
+        </form>
+    </body>
+    </html>
